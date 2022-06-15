@@ -1,12 +1,18 @@
-background-color: black
+body { background-color: black; }
 
-.h2 {
+* h1,h2 {
 color: white;
 font-family: arial;
 font: size20px;
 }
 
 .text {
+color: white;
+font-family: arial;
+font: size12px;
+}
+
+.footer {
 color: white;
 font-family: arial;
 font: size12px;
