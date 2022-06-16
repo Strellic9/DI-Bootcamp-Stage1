@@ -1,63 +1,99 @@
 body { 
-  background-color: black; }
+  background-color: black; 
+
+}
 
 h1 {
-color: white;
-font-family: arial;
-font: size30px;
+  color: white;
+  font-family: arial;
+  font: size30px;
 }
 
 h2 {
-position: relative;
-left: 5%;
-color: white;
-font-family: arial;
-font: size20px;
+  position: relative;
+  left: 5%;
+  color: white;
+  font-family: arial;
+  font: size20px;
 }
 
-.text {
-padding: 50px;
-color: white;
-font-family: arial;
-font: size12px;
-}
-
-footer {
-	text-align: center;
-color: white;
-font-family: arial;
-font: size8px;
-}
 
 .container {
-	width:auto;
-  position: relative;
-  text-align: center;
-  color: white;
+  	width:auto;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 .centered {
-  position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  widows: 100%;
+  height: auto;
+  position: fixed;
+  margin: 0;
+}
+
+nav ul {  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: none;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+nav li a: hover {
+  background-color: #C13430;
+  color: white;
+}
+
+.text {
+  margin: 20px;
+  color: white;
+  font-family: arial;
+  font: size12px;
+}
+
+
+.picbio img {
+  float: right ;
+  margin: 20px;
+  width: 500px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .audio {
-align-content: center;
-border-radius:12px;
-width:  40%;
-height: 380;
-frameBorder: 0;
-allow: autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture
+  align-content: center;
+  border-radius:12px;
+  width:  40%;
+  height: 380;
+  frameBorder: 0;
+  allow: autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture
 
-}
-
-.picbio img {
-float: right ;
-width: 500px;
-top: 50%;
-left: 50%;
 }
 
 .button {
@@ -75,40 +111,10 @@ left: 50%;
   align-items: center;
 }
 
-nav {
-display: flex;
-justify-content: center;
-background-color: white;
-widows: 100%;
-height: auto;
-position: fixed;
-margin: 0;
-}
 
-nav ul {  
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-}
-
-nav li {
-  float: left;
-}
-
-nav li a {
-display: block;
-color: black;
-text-align: center;
-padding: 15px 15px;
-text-decoration: none;
-text-transform: uppercase;
-box-shadow: none;
-font-family: sans-serif;
-margin: 0;
-}
-
-nav li a: hover {
-  background-color: #C13430;
+footer {
+  text-align: center;
   color: white;
+  font-family: arial;
+  font: size8px;
 }
