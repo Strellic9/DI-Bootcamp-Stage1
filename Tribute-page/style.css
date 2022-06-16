@@ -20,10 +20,11 @@ font-family: arial;
 font: size12px;
 }
 
-.footer {
+footer {
+	text-align: center;
 color: white;
 font-family: arial;
-font: size12px;
+font: size8px;
 }
 
 .container {
@@ -38,4 +39,22 @@ font: size12px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.audio	{
+	position: center;
+border-radius:12px;
+width:  100%;
+height: 380;
+frameBorder: 0;
+allowfullscreen: ; 
+allow: autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture
+
+}
+
+.picbio {
+	width: 300px;
+
+ top: 50%;
+  left: 50%;
 }
