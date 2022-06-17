@@ -32,21 +32,13 @@ h2 {
     transform: translate(-50%, -50%);
 }
 
-nav {
-  display: flex;
-  justify-content: center;
-  background-color: white;
-  widows: 100%;
-  height: auto;
-  position: fixed;
-  margin: 0;
-}
 
-nav ul {  
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: #333;
 }
 
 nav li {
@@ -54,21 +46,18 @@ nav li {
 }
 
 nav li a {
+  font-size: 20px;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
-  padding: 15px 15px;
+  padding: 14px 16px;
   text-decoration: none;
-  text-transform: uppercase;
-  box-shadow: none;
-  font-family: sans-serif;
-  margin: 0;
 }
 
-nav li a: hover {
-  background-color: #C13430;
-  color: white;
+nav li:hover {
+  background-color: #111;
 }
+
 
 .text {
   margin: 20px;
@@ -105,6 +94,7 @@ nav li a: hover {
   font-family: verdana;
   font-size: 16px;
   margin: 15px 30px;
+    text-decoration: none;
 }
 
 .buttons {  
