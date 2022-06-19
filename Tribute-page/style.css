@@ -103,6 +103,7 @@ nav li:hover {
 
 
 footer {
+  text-decoration: none;
   text-align: center;
   color: white;
   font-family: arial;
