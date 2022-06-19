@@ -1,42 +1,39 @@
 body {
-  background: #eee;
+  background: peachpuff;
   font-family: sans-serif;
 }
 
-.card {
-  width: 400px;
-  background: #fff;
-  margin: 16px auto;
-  padding: 8px;
-}
-
-.title {
-  background: #e3f4ff;
-  padding: 8px;
-margin-bottom: 8px;
-	margin-top: 0px;
-	font-size: 16px;
-
-}
-
-.content {
-  background: #e3f4ff;
-   padding: 8px;
-   font-size: 16px;
-   margin-bottom: 8px;
-}
-
-.button-container {
-  background: #e3f4ff;
+ul  {
+  list-style-type: none;
   text-align: center;
-   padding: 8px;
-      font-size: 16px;
+
 }
 
-button {
-  background: white;
-  border: 1px solid #eee;
+ul li {
+  margin: 8px;
+}
+
+li::first-letter {
+  font-size: 24px;
+  font-style: !important;
+}
+
+h1 { 
+  background-color: white;
   text-align: center;
-     font-size: 16px;
-     padding: 8px 24px;
+  margin-top: 8px;
+  border: dashed black;
+}
+
+#wrap {
+  background-color: white;
+  padding: 50px 20px;
+  width: 900px; height: 630px;
+  margin: 2px auto ;
+
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: blue;
 }
